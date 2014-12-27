@@ -1,0 +1,9 @@
+# OSX specific files
+*.DS_Store
+
+# Dependency related
+node_modules/
+bower_components/
+
+# SublimeText project files
+*.sublime-*
