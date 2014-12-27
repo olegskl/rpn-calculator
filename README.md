@@ -17,13 +17,13 @@ npm install git://github.com/olegskl/rpn-calculator.git
 
 or in package.json as a dependency:
 
-```JavaScript
+```JSON
 "dependencies": {
     "rpn-calculator": "git://github.com/olegskl/rpn-calculator.git"
 }
 ```
 
-### Usage
+## Usage
 
 ```JavaScript
 var calculator = require('rpn-calculator');
@@ -38,7 +38,7 @@ calculator('1 2 + 3 -'); // 0
 calculator('1 2 + 3 *'); // 9
 ```
 
-### Tests
+## Tests
 
 ```Bash
 npm install && npm test
