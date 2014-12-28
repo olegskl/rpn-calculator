@@ -17,8 +17,13 @@ describe('tokenizer', function () {
     });
 
     it('should map numbers to numeric strings in input', function () {
-        var output = tokenizer(['-1', '0', '1.1', '1e2'], {});
-        expect(output).to.eql([-1, 0, 1.1, 100]);
+        var output = tokenizer(['-1', '0', '1.1'], {});
+        expect(output).to.eql([-1, 0, 1.1]);
+    });
+
+    it('should support scientific notation', function () {
+        var output = tokenizer(['1e1', '-1e1', '1e+2', '1e-2'], {});
+        expect(output).to.eql([10, -10, 100, 0.01]);
     });
 
     it('should map operators to keys', function () {

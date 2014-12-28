@@ -28,6 +28,12 @@ calculator('1 2 + 3 -'); // 0
 calculator('1 2 + 3 *'); // 9
 ```
 
+Supports scientific notation:
+
+```JavaScript
+calculator('1e2 1e-2 +'); // 100.01
+```
+
 ### Available operators
 
 All operators replicate the default JavaScript behavior except `min` and `max`
