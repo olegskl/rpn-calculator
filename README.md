@@ -6,9 +6,6 @@ RPN calculator
 [![Build Status](https://travis-ci.org/olegskl/rpn-calculator.svg?branch=master)](https://travis-ci.org/olegskl/rpn-calculator)
 [![Code Climate](https://codeclimate.com/github/olegskl/rpn-calculator/badges/gpa.svg)](https://codeclimate.com/github/olegskl/rpn-calculator)
 
-[![browser support](https://ci.testling.com/olegskl/rpn-calculator.png)
-](https://ci.testling.com/olegskl/rpn-calculator)
-
 ## Installation
 
 ```Bash
