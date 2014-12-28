@@ -10,15 +10,7 @@ RPN calculator
 ## Installation
 
 ```Bash
-npm install git://github.com/olegskl/rpn-calculator.git
-```
-
-or in package.json as a dependency:
-
-```JSON
-"dependencies": {
-    "rpn-calculator": "git://github.com/olegskl/rpn-calculator.git"
-}
+npm install rpn-calculator
 ```
 
 ## Usage
