@@ -7,3 +7,8 @@ bower_components/
 
 # SublimeText project files
 *.sublime-*
+
+# Coverage-related
+coverage/
+lib-cov/
+coverage.json
